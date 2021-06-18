@@ -1,0 +1,21 @@
+.footer_div{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    height:12vh;
+}
+.icon{
+    color: white;
+    padding: 4vh 1vw 4vh 1vw;
+}
+.copyright{
+    font-family: Quicksand-Medium;
+    float: right;
+   
+    padding-right: 1vw;
+}
+.developed_by{
+    font-family: Quicksand-Medium;
+    float: right;
+    padding-right: 1vw;
+}

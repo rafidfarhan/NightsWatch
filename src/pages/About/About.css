@@ -1,0 +1,29 @@
+.dp{
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    display: block;
+
+    /* border-radius: 125px;
+    -webkit-border-radius: 125px;
+    -moz-border-radius: 125px; */
+}
+.about_website{
+    font-family: Quicksand;
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+.lang_list{
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.about_project_head{
+    font-family: Quicksand-Bold;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+}
+.pdf_resume{
+    margin-left: 5%;
+    margin-right: 5%;
+}

@@ -1,0 +1,202 @@
+.full_div{
+	width: 100%;
+}
+.poster_div{
+	float: left;
+	padding: 0px !important;
+	
+}
+
+
+.poster{
+	object-fit: contain;
+	text-align: center;
+	width:100%;
+	transition: transform 450ms;
+	margin-bottom: 5%;
+	border-radius: 1%;
+}
+.logos {
+	overflow-y: hidden;
+	overflow-x: scroll;
+	padding-top: 16px;
+	padding-top: 16px;
+	
+  }
+  .logos::-webkit-scrollbar {
+	display: none;
+  }
+
+
+.production_logos{
+	object-fit: contain;
+	width: 10%;
+	max-height: 100px ;
+	transition: transform 450ms;
+	border-radius: 1%;
+	margin-right: 2%;
+}
+.prod_head_div{
+	margin-bottom: 2%;
+	padding-bottom: 2%;
+	padding-top: 2%;
+
+}
+.prod_heading{
+	font-family: Quicksand-Bold;
+	color: black;
+	
+}
+
+
+.content_title{
+	font-family: Quicksand-Bold;
+}
+.tagline{
+	font-family: Quicksand-SemiBold;
+}
+.overview{
+	font-family: Quicksand;
+}
+.btn-trailer{
+	width: 49.5%;
+	background-color: #fcc70a;
+	border-color: #fcc70a;
+	transition: 0.4s ease-in-out;
+	color: white;
+	font-family: Quicksand-Bold;
+}
+.btn-trailer:hover{
+	background-color: black ;
+	border-color: black ;
+}
+.btn-trailer:active{
+	background-color:#fcc70a !important;
+	border-color:#fcc70a !important;
+}
+
+
+.info_div{
+	margin-left: 5%;
+	margin-bottom: 3%;
+}
+
+.backdrop{
+	display: none;
+	object-fit: contain;
+	width:100%;
+	border-radius: 1%;
+	margin-bottom: 5%;
+}
+
+.minutes{
+	display: inline-block;
+	color:white;
+	font-family: Quicksand;
+	text-align: center;
+	padding-right: 5px;
+	border-radius: 5px;
+	background-color: #fcc70a;
+	margin-left: 1%;
+	
+  }
+  .minutes i {
+	  padding: 5px;
+  }
+
+  .episodes_seasons{
+	display: inline-block;
+	color: white;
+	font-family: Quicksand-Medium;
+	text-align: center;
+	padding: 5px;
+	border-radius: 5px;
+	/*border: 1px solid #fcc70a;*/
+	background-color:  #fcc70a ;
+	margin-right: 1%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+  }
+  .genres{
+	display: inline-block;
+	color: #000000de;
+	font-family: Quicksand;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 5px;
+	background-color: #e0e0e0 ;
+	margin-right: 1%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+  }
+  .hide{
+	  display:none;
+  }
+
+  .cross{
+	  float: right;
+	  margin-left: 16px;
+	  margin-bottom: 16px;
+	  color: #fcc70a;
+	  transition: 0.35s ease-in-out;
+  }
+
+  .cross:hover{
+	color: black;
+	transition: 0.35s ease-in-out;
+
+}
+
+
+@media (min-width: 1200px){
+	.info_div{
+		margin-left: 30%;
+	}
+}
+
+@media (min-width: 992px){
+	.info_div{
+		margin-left: 30%;
+	}
+}
+
+@media (max-width: 991px){
+	.poster{
+		display: none;
+	}
+	.backdrop{
+		display: block;
+	}
+	.info_div{
+		margin-left: 2%;
+	}
+}
+@media (max-width: 768px){
+	.info_div{
+		margin-left: 2%;
+	}
+}
+
+@media (max-width: 576px){
+	.info_div{
+		margin-left: 2%;
+	}
+}
+@media (max-width: 470px){
+	.poster{
+		display: block;
+	}
+	.backdrop{
+		display: none;
+	}
+	.info_div{
+		margin-left: 5%;
+	}
+}
+
+.starring_div{
+	display:block ;
+}
