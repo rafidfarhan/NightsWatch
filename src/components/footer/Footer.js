@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <>
         <div className = "footer_div">
-            <a href = "https://www.facebook.com/r.farhan.999">
+            <a href = "https://github.com/rafidfarhan">
             <i className="fab fa-github fa-lg icon"></i>
             </a>
             <a href = "https://www.facebook.com/r.farhan.999">
