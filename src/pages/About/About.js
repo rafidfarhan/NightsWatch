@@ -2,7 +2,7 @@ import React from 'react';
 
 import "./About.css";
 //import mydp from "./Images/1.png";
-import resume from "./Images/Resume2.pdf";
+import resume from "./Images/Resume3.pdf";
 
 const About = () => {
     return (
